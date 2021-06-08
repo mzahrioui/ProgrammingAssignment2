@@ -3,7 +3,7 @@
 # variable into something convenient
 
 ## the function will create a special vector to set and check the existance 
-## of the matrix and its inverse in the cache using the superassignment operator "<<-"
+##  of the matrix and its inverse in the cache using the superassignment operator "<<-"
 
 makeCacheMatrix <- function(x = matrix()) {  ## define the argument with default mode of "matrix"
   inv <- NULL                             ## initialize inv as NULL; will hold value of matrix inverse 
